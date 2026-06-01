@@ -8,22 +8,33 @@ import Utils.Benchmarking;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        int[] size = {10000, 50000, 100000};
-        Persona[] arreglos = new Persona[size.length];
-        Persona[] insertionCopy = new Persona[size.length];
-        Persona[] quickCopy = new Persona[size.length];
+        int[] size = {10000,50000, 100000};
+        Persona[] arreglos = generarPersonas(size[0]);
+        Persona[] insertionCopy = arreglos.clone();
+        Persona[] quickCopy = arreglos.clone();
 
-        SortPersonaMethods sortMethods = new SortPersonaMethods();
+        // SortPersonaMethods sortMethods = new SortPersonaMethods();
 
-        Callable<Void> insertionSort = () -> {
-            sortMethods.insertionSort(insertionCopy);
-            return null;
-        };
+        // Callable<Void> insertionSort = () -> {
+        //     sortMethods.insertionSort(insertionCopy);
+        //     return null;
+        // };
     
-        Resultado[] resultadosInsertion = Benchmarking.medirTiempo(insertionSort, "Insertion Sort", "Personas", size);
+        // Resultado resultadosInsertion = Benchmarking.medirTiempo(insertionSort, "Insertion Sort", "Personas", size[0]);
+        // System.out.println(resultadosInsertion.getAlgoritmo() + ": " + resultadosInsertion.getTiempoMillis() + " ms");
 
+        // Callable<Void> quickSort = () -> {
+        //     sortMethods.quickSort(quickCopy, 0, quickCopy.length - 1);
+        //     return null;
+        // };
 
+        // Resultado resultadosQuick = Benchmarking.medirTiempo(quickSort, "Quick Sort", "Personas", size[0]);
+        // System.out.println(resultadosQuick.getAlgoritmo() + ": " + resultadosQuick.getTiempoMillis() + " ms");
 
+    }
+
+    public static void ejecutarEscenarioDesordenado(){
+        // Implementar el escenario desordenado
     }
     
     public static Persona[] generarPersonas(int cantidad){
