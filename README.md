@@ -30,9 +30,13 @@
     |                   |                  |                  |                      | ordenados                                       |
     
 ## Imagenes de las pruebas
+### Prueba 1
+![img-prueba-1](<src/Images/Captura de pantalla 2026-06-02 181356.png>) 
 
-![img-prueba-1](<src/Images/Captura de pantalla 2026-06-02 181356.png>) <br>
-![img-prueba-2](<src/Images/Captura de pantalla 2026-06-02 181827.png>) <br>
+### Prueba 2
+![img-prueba-2](<src/Images/Captura de pantalla 2026-06-02 181827.png>) 
+
+### Prueba 3
 ![img-prueba-3](<src/Images/Captura de pantalla 2026-06-02 182343.png>)
 
 ## Análisis Requerido

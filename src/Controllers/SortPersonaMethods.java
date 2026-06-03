@@ -28,6 +28,13 @@ public class SortPersonaMethods {
 
     private int particionar(Persona[] personas, int inicio, int fin) {
 
+        //Se cambió el pivote al elemento central para obtener particiones más equilibradas,
+        //mejorar el rendimiento y evitar errores de StackOverflowError en arreglos grandes.
+
+        //El error StackOverflowError ocurre cuando QuickSort realiza demasiadas llamadas recursivas seguidas,
+        //llenando la memoria utilizada para almacenar dichas llamadas. Esto puede suceder al ordenar arreglos
+        //muy grandes cuando las particiones no son equilibradas.
+
         int medio = (inicio + fin) / 2;
         intercambiar(personas, medio, fin);
 
