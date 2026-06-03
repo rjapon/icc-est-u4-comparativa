@@ -31,9 +31,9 @@
     
 ## Imagenes de las pruebas
 
-![img-prueba-1](<src/Images/Captura de pantalla 2026-06-02 181356.png>)
-\n![img-prueba-2](<src/Images/Captura de pantalla 2026-06-02 181827.png>)
-\n![img-prueba-3](<src/Images/Captura de pantalla 2026-06-02 182343.png>)
+![img-prueba-1](<src/Images/Captura de pantalla 2026-06-02 181356.png>) <br>
+![img-prueba-2](<src/Images/Captura de pantalla 2026-06-02 181827.png>) <br>
+![img-prueba-3](<src/Images/Captura de pantalla 2026-06-02 182343.png>)
 
 ## Análisis Requerido
 
@@ -60,4 +60,6 @@ QuickSort suele ser mejor cuando los datos están muy desordenados porque divide
 
 ## Conclusiones
 
-
+- En conclusión, se comparó el rendimiento de los algoritmos Inserción y QuickSort, observando que su eficiencia depende del estado inicial del arreglo. QuickSort fue más rápido en arreglos desordenados, mientras que Inserción destacó en arreglos casi ordenados, permitiendo determinar cuál es la mejor opción según cada caso.
+- También se comprobó que el tamaño de un arreglo afecta significativamente a los tiempos de ejecución de un algoritmo 
+- Además, esto permitió comprender que no existe un algoritmo eficiente para todos los casos.
